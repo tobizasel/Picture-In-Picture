@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Koulen", cursive;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+}
+body #video {
+  height: 360px;
+  width: 640px;
+}
+body .button-container {
+  border: 2px solid black;
+  padding: 0.6rem;
+  border-radius: 7px;
+  box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
+}
+body .button-container #button {
+  cursor: pointer;
+  outline: none;
+  width: 120px;
+  height: 75px;
+  color: #fff;
+  text-shadow: 0 3px 7px #000;
+  font-size: 1.4rem;
+  background: linear-gradient(to top, #696969, #575757);
+  border-radius: 7px;
+  box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0 rgba(0, 0, 0, 0.3);
+}
+body .button-container #button:hover {
+  background: linear-gradient(to bottom, #696969, #575757);
+}
+body .button-container #button:active {
+  transform: translateY(3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+/*# sourceMappingURL=styles.css.map */
